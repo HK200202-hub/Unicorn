@@ -16,6 +16,14 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="/css/message.css">
+        <style>
+            .password-requirement {
+                font-size: 0.9em;
+                color: #666;
+                margin-top: 5px;
+                text-align: left;
+            }
+        </style>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -44,7 +52,7 @@
               <input type="email" id="emailInputRegister" placeholder="Email" pattern=".*" required>
               <input type="password" id="passwordInputRegister" placeholder="Password" pattern=".*" required>
               <input type="password" id="password2InputRegister" placeholder="Confirm Password" pattern=".*" required>
-             <h2 style="color:Tomato;">Please Enter minimum 12 charcters</h2>
+              <div class="password-requirement">Please enter a password with a minimum of 12 characters.</div>
               <input type="submit" value="Let's Ryde">
             </form>
         </section>
